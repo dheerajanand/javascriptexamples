@@ -1,0 +1,30 @@
+1. Destucturing
+   https://javascript.info/destructuring-assignment
+2. Destucturing Assignment
+   https://dev.to/sarah_chima/destructuring-assignment---arrays-16f
+3. Array Methods
+   https://javascript.info/array-methods
+4. Angular 8
+   https://www.fullstack.cafe/blog/angular-8-interview-questions
+5. Angular lifecycle hooks
+   https://angular.io/guide/lifecycle-hooks
+
+
+
+ ERROR #98123  WEBPACK
+
+Generating development JavaScript bundle failed
+
+Can't resolve '@material-ui/core/utils/helpers' in 'C:\Dheeraj\Pepsico\using Yarn\ui-house-of-pepsico-com\src\components\v2\video'
+
+File: src\components\v2\video\video.jsx
+
+failed Building development bundle - 152.573s
+
+
+https://reactjs.org/docs/error-decoder.html/?invariant=321
+
+https://reactjs.org/warnings/invalid-hook-call-warning.html
+
+
+https://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html
