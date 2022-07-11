@@ -38,10 +38,33 @@ let data = [
 //     grade - B
 //         Ssd, ttt
 
-const def = {};
-const abc = data.filter((el) => {
-  if (el.grade === "A") {
-    return el.grade === "A";
-  }
-});
-console.log(abc);
+function groupByMethod(objectArray, property) {
+  return objectArray.reduce((acc, obj) => {
+    const key = obj[property];
+    if (!acc[key]) {
+      acc[key] = [];
+    }
+    acc[key].push(obj);
+    return acc;
+  }, {});
+}
+console.log(groupByMethod(data, "class"));
+// https://www.tutorialspoint.com/most-efficient-method-to-groupby-on-an-array-of-objects-in-javascript
+const people = [
+  { name: "Lee", age: 21 },
+  { name: "Ajay", age: 20 },
+  { name: "Jane", age: 20 },
+];
+function groupBy(objectArray, property) {
+  return objectArray.reduce((acc, obj) => {
+    const key = obj[property];
+    if (!acc[key]) {
+      acc[key] = [];
+    }
+    // Add object to list for given key's value
+    acc[key].push(obj);
+    return acc;
+  }, {});
+}
+console.log(groupBy(people, "age"));
+console.log(groupBy(people, "name"));
