@@ -1,5 +1,22 @@
+// https://dev.to/soyleninjs/3-ways-to-remove-duplicates-in-an-array-in-javascript-259o
 let arr = [1, 2, 3, 1, 4, 2, 0, 9];
-console.log(new Set(arr));
+const uniqueArr = [...new Set(arr)];
+console.log(uniqueArr);
+
+// indexof and filter method
+const uniqueIndexOfFilter = arr.filter((element, index) => {
+  return arr.indexOf(element) === index;
+});
+console.log(uniqueIndexOfFilter);
+
+// includes and forEach method
+let includeForEachArray = [];
+arr.forEach((element) => {
+  if (!includeForEachArray.includes(element)) {
+    includeForEachArray.push(element);
+  }
+});
+console.log(includeForEachArray);
 
 // https://www.youtube.com/watch?v=dvPybpgk5Y4
 // brute-force method using a for loop
