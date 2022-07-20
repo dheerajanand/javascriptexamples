@@ -1,5 +1,8 @@
 # javascriptexamples
 
+Quokka.js
+- https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode
+
 https://onecompiler.com/tutorials/javascript/examples/examples
 
 Instal lextenstion:
