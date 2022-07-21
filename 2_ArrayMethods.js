@@ -54,3 +54,22 @@ let arr9 = [
 
 let user = arr9.find(item => item.id === 1);
 console.log(user.name);
+
+
+var array = [
+  [123, 234, 456, 789],
+  [321, 654, 987],
+  [963, 852, 741]
+];
+
+const shots = [
+  {id: 1, amount: 2},
+  {id: 2, amount: 4},
+  {id: 3, amount: 52},
+  {id: 4, amount: 36},
+  {id: 5, amount: 13},
+  {id: 6, amount: 33}
+];
+
+const a = shots.reduce((acc, shot) => acc = acc > shot.amount ? acc : shot.amount, 0);
+console.log(a)
