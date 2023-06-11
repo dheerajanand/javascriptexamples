@@ -1,6 +1,7 @@
 # javascriptexamples
 
 Quokka.js
+
 - https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode
 
 https://onecompiler.com/tutorials/javascript/examples/examples
@@ -10,5 +11,9 @@ Quokka.js
 
 | File Name                          | Image Reference                                        |
 | ---------------------------------- | ------------------------------------------------------ |
-| [mathSequence.js](mathSequence.js) | ![Alt text](images/math-sequence.png?raw=true "Title") |
-| [dataGrouping.js](dataGrouping.js) | ![Alt text](images/grouping.png "Title")               |
+| [mathSequence.js](mathSequence.js) | ![Alt text](images/math-sequence.png?raw=true 'Title') |
+| [dataGrouping.js](dataGrouping.js) | ![Alt text](images/grouping.png 'Title')               |
+
+| Udemy Course                                        | URL                                             | Folderujko                                    |
+| --------------------------------------------------- | ----------------------------------------------- | --------------------------------------------- |
+| JavaScript Arrays and Objects Basic Data Structures | https://www.udemy.com/course/javascript-coding/ | JavaScriptArraysandObjectsBasicDataStructures |

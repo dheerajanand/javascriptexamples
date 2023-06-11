@@ -30,3 +30,11 @@ f;
 
 //To Get Square Root of Number
 console.log(Math.sqrt(f));
+
+// 1. Combine Array
+// 2. Keep Only Odd Numbers
+// 3. Total of array
+// 4. Squareroot of number
+
+// https://contactmentor.com/js-function-exercises-solution/
+// https://codeguppy.com/blog/javascript-coding-challenges-for-beginners/index.html
